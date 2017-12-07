@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <maName name="classOver.ma" topic="" music="0023.mp3" maFrame="250">
+    <rule ruleType="addToMa" addModel="M_boy.ma" class="YoungMan" spaceName="SP_classOver_A" type="people" isTarget="1" degree="" number="1" addModelID="addModelID1"/>
+    <rule ruleType="addToMa" addModel="M_businessman.ma" class="BusinessWoman" spaceName="SP_classOver_A" type="people" isTarget="1" degree="" number="1" addModelID="addModelID2"/>
+    <rule ruleType="addToMa" addModel="M_Casualyouth.ma" class="YoungMan" spaceName="SP_classOver_A" type="people" isTarget="1" degree="" number="1" addModelID="addModelID3"/>
+    <rule ruleType="addToMa" addModel="M_boy.ma" class="YoungMan" spaceName="SP_classOver_B" type="people" isTarget="1" degree="" number="1" addModelID="addModelID4"/>
+    <rule ruleType="addToMa" addModel="M_businessman.ma" class="BusinessWoman" spaceName="SP_classOver_B" type="people" isTarget="1" degree="" number="1" addModelID="addModelID5"/>
+    <rule ruleType="addToMa" addModel="M_Casualyouth.ma" class="YoungMan" spaceName="SP_classOver_B" type="people" isTarget="1" degree="" number="1" addModelID="addModelID6"/>
+    <rule ruleType="addToMa" addModel="M_car03.ma" class="Car" spaceName="SP_classOver_B" type="model" isTarget="0" degree="" number="3" addModelID="addModelID7"/>
+    <rule ruleType="addToMa" addModel="M_truck04.ma" class="Lorry" spaceName="SP_classOver_B" type="model" isTarget="0" degree="" number="1" addModelID="addModelID8"/>
+    <rule ruleType="addToMa" addModel="M_Maple3.ma" class="MapleTree" spaceName="SP_classOver_A" type="model" isTarget="0" degree="" number="1" addModelID="addModelID9"/>
+    <rule ruleType="addToMa" addModel="M_car11.ma" class="Car" spaceName="SP_classOver_A" type="model" isTarget="0" degree="" number="1" addModelID="addModelID10"/>
+    <rule ruleType="addToMa" addModel="M_Sumac_Tree04.ma" class="SumacTree" spaceName="SP_classOver_A" type="model" isTarget="0" degree="" number="4" addModelID="addModelID11"/>
+    <rule ruleType="addToMa" addModel="M_Sumac_Tree01.ma" class="SumacTree" spaceName="SP_classOver_A" type="model" isTarget="0" degree="" number="3" addModelID="addModelID12"/>
+    <rule ruleType="addActionToMa" type="action" usedModelID="addModelID5" usedModelInMa="M_businessman.ma" actionName="DepressedWalk91_14" ifAddConstraint="false" relateAction="null"/>
+    <rule ruleType="addActionToMa" type="action" usedModelID="addModelID6" usedModelInMa="M_Casualyouth.ma" actionName="SadWalk91_13" ifAddConstraint="false" relateAction="null"/>
+    <rule ruleType="addActionToMa" type="action" usedModelID="addModelID2" usedModelInMa="M_businessman.ma" actionName="JoyWalk142_09" ifAddConstraint="false" relateAction="null"/>
+    <rule ruleType="addActionToMa" type="action" usedModelID="addModelID4" usedModelInMa="M_boy.ma" actionName="ShyWalk91_20" ifAddConstraint="false" relateAction="null"/>
+    <rule ruleType="addActionToMa" type="action" usedModelID="addModelID3" usedModelInMa="M_Casualyouth.ma" actionName="run09_05" ifAddConstraint="false" relateAction="null"/>
+    <rule ruleType="addActionToMa" type="action" usedModelID="addModelID1" usedModelInMa="M_boy.ma" actionName="ElatedWalk142_06" ifAddConstraint="false" relateAction="null"/>
+    <rule ruleType="addExpressionToMa" type="FacialExpression" usedModelInMa="M_boy.ma" usedModelID="addModelID1" expression="laugh" expressionID="1"/>
+    <rule ruleType="setColor" type="modelTexture" usedModelID="addModelID4" usedModelInMa="M_boy.ma" textureType="Trousers" texturePath="boy_trousers_02.jpg"/>
+    <rule ruleType="setColor" type="modelTexture" usedModelID="addModelID4" usedModelInMa="M_boy.ma" textureType="Shoes" texturePath="boy_shoes_01.jpg"/>
+    <rule ruleType="setColor" type="modelTexture" usedModelID="addModelID4" usedModelInMa="M_boy.ma" textureType="Body" texturePath="boy_body_01.jpg"/>
+    <rule ruleType="setColor" type="modelTexture" usedModelID="addModelID1" usedModelInMa="M_boy.ma" textureType="Body" texturePath="boy_body_01.jpg"/>
+    <rule ruleType="setColor" type="modelTexture" usedModelID="addModelID1" usedModelInMa="M_boy.ma" textureType="Shoes" texturePath="boy_shoes_01.jpg"/>
+    <rule ruleType="setColor" type="modelTexture" usedModelID="addModelID1" usedModelInMa="M_boy.ma" textureType="Trousers" texturePath="boy_trousers_02.jpg"/>
+    <rule ruleType="setColor" type="modelTexture" usedModelID="addModelID1" usedModelInMa="M_boy.ma" textureType="Head" texturePath="boy_head_01.jpg"/>
+    <rule ruleType="setColor" type="modelColor" usedModelID="addModelID10" usedModelInMa="M_car11.ma" color="purple" hue="270.0" saturation="0.774" value="0.486"/>
+    <rule ruleType="addLightToMa" autoGeneration="yes" type="ambientLight" haveShade="no" targetMode="all" haveEffect="no" relativeLocation="roomOut" lightColor="white" intensity="normal" isDynamic="no" changeFrame="" changeColor="" changeIntensity="" moveDirection=""/>
+    <rule ruleType="addLightToMa" autoGeneration="yes" type="pointLight" haveShade="yes" targetMode="all" haveEffect="yes" relativeLocation="roomOut" lightColor="white" intensity="normal" isDynamic="no" changeFrame="" changeColor="" changeIntensity="" moveDirection=""/>
+    <rule ruleType="setLayout" spaceName="SP_classOver_A" layoutEffect="ComparedLayout" area1_name="addModelID1 addModelID2 addModelID3 addModelID9 addModelID11 addModelID12" area1_shape="othertype" area2_name="addModelID10" area2_shape="point"/>
+    <rule ruleType="setLayout" spaceName="SP_classOver_B" layoutEffect="ComparedLayout" area1_name="addModelID7 addModelID8" area1_shape="othertype" area2_name="addModelID4 addModelID5 addModelID6" area2_shape="triangle"/>
+    <rule ruleType="SetCamera" CameraName="newCameraA" Range="all" isStart="1" depthOfField="focus" HLCP="Out_Contra" shotPlan="Push" usedModelID="addModelID4 addModelID5 addModelID6" target="M_boy.ma M_businessman.ma M_Casualyouth.ma" startPitch="forehead" endPitch="forehead" startYaw="nearside" endYaw="nearside" startShotType="medium" endShotType="medium" startframe="1" endframe="125" startinall="1" endinall="125"/>
+    <rule ruleType="SetCamera" CameraName="newCameraB" Range="all" isStart="0" depthOfField="focus" HLCP="Out_Contra" shotPlan="Fix" usedModelID="addModelID1 addModelID2 addModelID3" target="M_boy.ma M_businessman.ma M_Casualyouth.ma" startPitch="forehead" endPitch="forehead" startYaw="offside" endYaw="offside" startShotType="medium" endShotType="medium" startframe="126" endframe="250" startinall="126" endinall="250"/>
+  </maName>
+</result>
+
+
+
+
+ 
+
